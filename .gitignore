@@ -3,6 +3,19 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Web App specific folders/files
+.DS_store
+en/.DS_store
+it/.DS_store
+config/*
+dump/*
+en/config-backup/*
+en/config.php
+en/google12475d20f2373359.html
+it/config-backup/*
+it/config.php
+it/google12475d20f2373359.html
+
 # User-specific files
 *.rsuser
 *.suo
