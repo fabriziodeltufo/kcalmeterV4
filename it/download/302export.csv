@@ -1,0 +1,88 @@
+302,16235,BIBITE,caffe,bevande,2,400,8,"tazza caffe americano"
+302,16236,BIBITE,"lattina coca cola",bibita,0,330,0,"calorie zero"
+302,16237,BIBITE,limonata,bevande,1,2000,20,
+302,16238,BIBITE,"te verde",bevande,2,0,0,
+302,16239,CARNE,insaccato,"proteine animali",144,0,0,salumi
+302,16240,CARNE,"prosciutto cotto","proteine animali",132,0,0,
+302,16241,CARNE,salame,"proteine animali",144,0,0,
+302,16242,CARNE,"uovo sodo","proteine animali",80,48,39,"1 uovo"
+302,16243,"CARNE BIANCA","petti di pollo","proteine animali",110,250,275,"1 petto pollo"
+302,16244,"CARNE PESCE","pate salmone","proteine animali",190,100,190,barattolino
+302,16245,"CARNE PESCE","pesce merluzzo","proteine animali",127,0,300,"2 porzioni merluzzo"
+302,16246,"CARNE PESCE",sardine,"proteine animali",167,0,200,
+302,16247,"CARNE PESCE","tonno in pezzi","proteine animali",109,0,110,
+302,16248,"CARNE ROSSA","braciole maiale","proteine animali",110,100,110,"1 braciola"
+302,16249,CEREALI,baguette,cereali,281,0,0,
+302,16250,CEREALI,"fiocchi avena",fibre,367,12,44,"1 cucchiaio, +HDL, -LDL, -grassi nel sangue"
+302,16251,CEREALI,mais,cereali,88,118,103,
+302,16252,CEREALI,noudle,carboidrati,150,50,75,"to check"
+302,16253,CEREALI,orzo,cereali,0,0,0,
+302,16254,CEREALI,"pane integrale",cereali,230,38,87,"1 fetta"
+302,16255,CEREALI,"pasta integrale cotta",cereali,143,50,72,
+302,16256,CEREALI,"pizza margherita",cereali,271,0,0,
+302,16257,CEREALI,"riso bianco cotto",cereali,100,50,50,
+302,16258,CEREALI,"riso integrale",cereali,119,50,60,"mezza tazza"
+302,16259,CEREALI,"riso integrale cotto",cereali,119,60,74,
+302,16260,FRUTTA,albicocche,vitamine,50,72,36,"1 albicocca"
+302,16261,FRUTTA,amarene,vitamine,30,0,0,
+302,16262,FRUTTA,ananas,vitamine,55,0,0,
+302,16263,FRUTTA,anguria,vitamine,30,0,0,
+302,16264,FRUTTA,arancia,vitamine,45,0,0,
+302,16265,FRUTTA,banane,vitamine,90,100,90,"frutta due volte al giorno"
+302,16266,FRUTTA,cachi,vitamine,65,0,0,
+302,16267,FRUTTA,ciliege,vitamine,70,0,0,
+302,16268,FRUTTA,fragole,vitamine,35,0,0,
+302,16269,FRUTTA,lamponi,vitamine,40,0,0,antiossidanti
+302,16270,FRUTTA,limone,vitamine,30,0,0,"accellera metabolismo"
+302,16271,FRUTTA,mandarini,vitamine,45,0,0,
+302,16272,FRUTTA,"marmellata fragole",vitamine,247,33,81,"1 cucchiaio"
+302,16273,FRUTTA,mela,vitamine,0,0,0,
+302,16274,FRUTTA,melone,vitamine,50,0,0,
+302,16275,FRUTTA,mirtilli,vitamine,0,0,0,"antiossidanti, circolazione sanguigna migliore"
+302,16276,FRUTTA,more,vitamine,55,0,0,
+302,16277,FRUTTA,pere,vitamine,50,0,0,
+302,16278,FRUTTA,pesca,vitamine,40,106,42,"1 pesca, ricca di fibre, antiossidanti, vitamine"
+302,16279,FRUTTA,prugne,vitamine,50,0,0,
+302,16280,FRUTTA,"uva passa",vitamine,300,15,45,"1 cucchiaio, previene cancro e carie, contiene catechina e polifenoli"
+302,16281,"FRUTTA SECCA",arachidi,"frutta secca",610,250,1525,"1 sacchetto 250gr"
+302,16282,"FRUTTA SECCA",mandorle,"frutta secca",613,5,30,"6 mandorle"
+302,16283,"FRUTTA SECCA",noci,"frutta secca",690,10,69,"5 noci, molto calorica ma contiene omega3, acidi grassi insaturi, vitamina E, ferro , magnesio"
+302,16284,GRASSI,aceto,condimenti,104,15,16,"1 cucchiaio"
+302,16285,GRASSI,"olio di girasole",condimenti,829,15,124,"1 cucchiaio"
+302,16286,GRASSI,"olio di mais",condimenti,899,15,134,"1 cucchiaio"
+302,16287,GRASSI,"olio extravergine oliva",condimenti,826,15,123,"1 cucchiaio"
+302,16288,LATTICINI,formaggio,proteine,271,0,0,
+302,16289,LATTICINI,"formaggio uk",formaggi,302,160,483,
+302,16290,LATTICINI,"grana padano",proteine,384,0,0,
+302,16291,LATTICINI,"latte scremato",proteine,35,247,86,"tazza latte"
+302,16292,LATTICINI,mozzarella,proteine,222,125,277,"1 mozzarella"
+302,16293,LATTICINI,"yogurt bianco bottiglietta",proteine,64,125,80,"diminuisce acidita intestinale/corpo,  flora batterica,  calcio (x ossa/denti),  sistema immunitario"
+302,16294,LATTICINI,"yogurt bianco magro",proteine,36,125,45,"diminuisce acidita intestinale/corpo, +flora batterica, +calcio (x ossa/denti), +sistema immunitario"
+302,16295,LEGUMI,ceci,"proteine vegetali",128,240,308,"1 barattolo"
+302,16296,LEGUMI,fagioli,"proteine vegetali",83,410,340,"1 barattolo"
+302,16297,LEGUMI,"legumi secchi","proteine vegetali",296,0,0,
+302,16298,LEGUMI,lenticchie,"proteine vegetali",90,0,90,
+302,16299,LEGUMI,"piselli verdi surgelati","proteine vegetali",48,0,0,
+302,16300,PROTEINE,uova,"proteine animali",80,100,80,"3 volte a settimana , LU, ME, VE"
+302,16301,VERDURA,aglio,vegetali,90,0,0,
+302,16302,VERDURA,broccoli,vegetali,27,207,56,"1 porzione"
+302,16303,VERDURA,carote,vegetali,35,0,0,
+302,16304,VERDURA,cavolfiore,vegetali,25,0,0,
+302,16305,VERDURA,cipolla,vegetali,25,0,0,
+302,16306,VERDURA,finocchi,vegetali,15,0,0,
+302,16307,VERDURA,funghi,vegetali,25,100,25,
+302,16308,VERDURA,"minestra verdure",vegetali,30,200,60,
+302,16309,VERDURA,olive,vegetali,144,95,137,"½ barattolo"
+302,16310,VERDURA,patate,vegetali,85,0,0,
+302,16311,VERDURA,"pomodoro insalataro",vegetali,19,281,54,"400gr tra verdura / frutta dose consigliata - verdura due volte al giorno"
+302,16312,VERDURA,"pomodoro piccolo",vegetali,19,50,10,"400gr tra verdura / frutta dose consigliata - verdura due volte al giorno"
+302,16313,VERDURA,sedano,vegetali,15,0,15,
+302,16314,VERDURA,spinaci,vegetali,24,0,0,
+302,16315,ZUCCHERI,"brioches double crème",dolci,452,110,497,
+302,16316,ZUCCHERI,"gelato artigianale frutta",dolci,130,2000,2600,"vaschetta 2Litri"
+302,16317,ZUCCHERI,"gelato confezionato frutta",dolci,160,2000,3200,"vaschetta 2Litri"
+302,16318,ZUCCHERI,"mars cioccolato",dolci,448,39,177,"barretta mars"
+302,16319,ZUCCHERI,miele,dolci,307,12,36,"1 cucchiaio piccolo"
+302,16320,ZUCCHERI,"pack popcorn",cereali,461,100,461,popcorn
+302,16321,ZUCCHERI,"salame al cioccolato",dolci,181,181,181,"1 fetta"
+302,16322,ZUCCHERI,zucchero,dolci,400,5,20,"1 cucchiaio piccolo"

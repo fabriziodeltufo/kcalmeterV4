@@ -1,0 +1,88 @@
+2,851,CEREALS,baguette,,281,0,0,
+2,852,CEREALS,barley,,0,0,0,
+2,853,CEREALS,"brown rice",,119,50,60,"half cup"
+2,854,CEREALS,"cooked brown rice",,119,60,74,
+2,855,CEREALS,"cooked white rise",,100,50,50,
+2,856,CEREALS,"Cooked whole wheat pasta",,143,50,72,
+2,857,CEREALS,corn,,88,118,103,
+2,858,CEREALS,noudle,,150,50,75,"to check"
+2,859,CEREALS,"oats flakes",,367,12,44,"1 spoon, +HDL, -LDL, -fat into the blood"
+2,860,CEREALS,"pizza margherita",,271,0,0,
+2,861,CEREALS,"whole grain bread",,230,38,87,"1 slice"
+2,862,"DAIRY PRODUCTS","bottled white yogurt",,64,125,80,"decreases intestinal / body acidity, bacterial flora, calcium (x bones / teeth), immune system"
+2,863,"DAIRY PRODUCTS",cheese,,271,0,0,
+2,864,"DAIRY PRODUCTS","grana padano",,384,0,0,
+2,865,"DAIRY PRODUCTS","Low-fat white yogurt",,36,125,45,"decreases intestinal / body acidity, + bacterial flora, + calcium (x bones / teeth), + immune system"
+2,866,"DAIRY PRODUCTS","mozzarella cheese",,222,125,277,"1 mozzarella chese"
+2,867,"DAIRY PRODUCTS","skimmed milk",,35,247,86,"milk cup"
+2,868,"DAIRY PRODUCTS","uk cheese",,302,160,483,
+2,869,"DRIED FRUIT",almonds,,613,5,30,"6 almonds"
+2,870,"DRIED FRUIT",peanuts,,610,250,1525,"1 bag 250gr"
+2,871,"DRIED FRUIT",walnuts,,690,10,69,"5 walnuts, very caloric but contains omega3, unsaturated fatty acids, vitamin E, iron, magnesium"
+2,872,DRINKS,"coca cola",,0,330,0,"zero calories"
+2,873,DRINKS,coffe,,2,400,8,"american coffe cup"
+2,874,DRINKS,"green te",,2,0,0,
+2,875,DRINKS,lemon,,1,2000,20,
+2,876,FAT,"corn oil",,899,15,134,"1 spoon"
+2,877,FAT,"extra virgin olive oil",,826,15,123,"1 spoon"
+2,878,FAT,"sunflower oil",,829,15,124,"1 spoon"
+2,879,FAT,vinegar,,104,15,16,"1 spoon"
+2,880,FISH,"cod fish",,127,0,300,"2portions of cod"
+2,881,FISH,"salmon pate",,190,100,190,jar
+2,882,FISH,sardines,,167,0,200,
+2,883,FISH,"tuna pieces",,109,0,110,
+2,884,FRUIT,apple,,0,0,0,
+2,885,FRUIT,apricots,,50,72,36,"1 apricot"
+2,886,FRUIT,bananas,,90,100,90,"fruit twice per day"
+2,887,FRUIT,blackberries,,55,0,0,
+2,888,FRUIT,blueberries,,0,0,0,"antioxidants, better blood circulation"
+2,889,FRUIT,cherries,,70,0,0,
+2,890,FRUIT,khaki,,65,0,0,
+2,891,FRUIT,lemons,,30,0,0,"speeds up metabolism"
+2,892,FRUIT,melon,,50,0,0,
+2,893,FRUIT,orange,,45,0,0,
+2,894,FRUIT,peaches,,40,106,42,"1 peach, rich in fiber, antioxidants, vitamins"
+2,895,FRUIT,pears,,50,0,0,
+2,896,FRUIT,pineapple,,55,0,0,
+2,897,FRUIT,prunes,,50,0,0,
+2,898,FRUIT,raisins,,300,15,45,"1 tablespoon, prevents cancer and caries, contains catechin and polyphenols"
+2,899,FRUIT,raspberries,,40,0,0,antioxidants
+2,900,FRUIT,"sour cherries",,30,0,0,
+2,901,FRUIT,strawberries,,35,0,0,
+2,902,FRUIT,"strawberry jam",,247,33,81,"1 spoon"
+2,903,FRUIT,tangerines,,45,0,0,
+2,904,FRUIT,watermelon,,30,0,0,
+2,905,LEGUMES,beans,,83,410,340,"1 can"
+2,906,LEGUMES,chickpeas,,128,240,308,"1 can"
+2,907,LEGUMES,"dried vegetables",,296,0,0,
+2,908,LEGUMES,"frozen green peas",,48,0,0,
+2,909,LEGUMES,lentils,,90,0,90,
+2,910,MEAT,bagged,,144,0,0,"cured meat"
+2,911,MEAT,"baked ham",,132,0,0,
+2,912,MEAT,"boiled egg",,80,48,39,"1 egg"
+2,913,MEAT,salami,,144,0,0,
+2,914,PROTEIN,eggs,,80,100,80,"3 times a week, LU, ME, VE"
+2,915,"RED MEAT","pork chop",,110,100,110,"1 pork chop"
+2,916,SUGARS,"brioches double crème",,452,110,497,
+2,917,SUGARS,"chocolate salami",,181,181,181,"1 slice"
+2,918,SUGARS,"fruit ice cream",,130,2000,2600,"2L tank"
+2,919,SUGARS,honey,,307,12,36,"1 small spoon"
+2,920,SUGARS,"mars cioccolato",,448,39,177,"mars bar"
+2,921,SUGARS,"packed fruit ice cream",,160,2000,3200,"2L tank"
+2,922,SUGARS,"popcorn pack",,461,100,461,popcorn
+2,923,SUGARS,sugar,,400,5,20,"1 little spoon"
+2,924,VEGETABLE,broccoli,,27,207,56,"1 serving"
+2,925,VEGETABLE,carrots,,35,0,0,
+2,926,VEGETABLE,cauliflowers,,25,0,0,
+2,927,VEGETABLE,celery,,15,0,15,
+2,928,VEGETABLE,fennels,,15,0,0,
+2,929,VEGETABLE,garlic,,90,0,0,
+2,930,VEGETABLE,mushrooms,,25,100,25,
+2,931,VEGETABLE,olive,,144,95,137,"½ can"
+2,932,VEGETABLE,onion,,25,0,0,
+2,933,VEGETABLE,potatoes,,85,0,0,
+2,934,VEGETABLE,"salad tomato",,19,281,54,"400gr between vegetables / fruit recommended dose - vegetables twice a day"
+2,935,VEGETABLE,spinach,,24,0,0,
+2,936,VEGETABLE,tomato,,19,50,10,"400gr between vegetables / fruit recommended dose - vegetables twice a day"
+2,937,VEGETABLE,"vegetable soup",,30,200,60,
+2,938,"WHITE MEAT","chicken breast",,110,250,275,"1 chicken breast"
