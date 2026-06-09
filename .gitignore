@@ -7,8 +7,8 @@
 .DS_store
 en/.DS_store
 it/.DS_store
-config-backup/*
-dump/*
+_dump/
+config-backup/
 en/config-backup/*
 en/config.php
 en/config.phpLOCAL
@@ -16,7 +16,6 @@ en/config.phpSERVER
 en/google12475d20f2373359.html
 it/config-backup/*
 it/config.php
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" charset="utf-8"></script>it/config.phpLOCAL
 it/config.phpSERVER
 it/google12475d20f2373359.html
 
