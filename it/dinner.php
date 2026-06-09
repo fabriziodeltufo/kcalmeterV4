@@ -225,7 +225,7 @@ se si , cancella il record  -->
                   <table class="text-center table table-striped table-hover table-condensed table-bordered table-sm">
 
                   <!-- FUNZIONE lista_ali_pasti() -->
-                    <?php lista_ali_pasti(CEN); ?>
+                    <?php lista_ali_pasti("CEN"); ?>
 
                   <!-- TOTALE CALORIE PASTO  -->
                   <tfoot class="bg-warning">

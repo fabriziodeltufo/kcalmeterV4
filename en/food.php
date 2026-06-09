@@ -22,47 +22,47 @@ Last Upd : 10 June 2020
 
 <!-- =========================================== HEADER - MAIN MENU ============================================== -->
 
-         <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
-           <ul class="navbar-nav">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+    <ul class="navbar-nav">
 
-             <li class="nav-item">
-               <a class="nav-link" href="home.php">Home</a>
-             </li>
+        <li class="nav-item">
+            <a class="nav-link" href="home.php">Home</a>
+        </li>
 
-             <li class="nav-item">
-               <a class="nav-link active" href="food.php">Food List</a>
-             </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="food.php">Food List</a>
+        </li>
 
-             <li class="nav-item">
-               <a class="nav-link" href="breakfast.php">Breakfast</a>
-             </li>
+        <li class="nav-item">
+            <a class="nav-link" href="breakfast.php">Breakfast</a>
+        </li>
 
-             <li class="nav-item">
-               <a class="nav-link" href="snack-am.php">SnackAM</a>
-             </li>
+        <li class="nav-item">
+            <a class="nav-link" href="snack-am.php">SnackAM</a>
+        </li>
 
-             <li class="nav-item">
-               <a class="nav-link" href="lunch.php">Lunch</a>
-             </li>
+        <li class="nav-item">
+            <a class="nav-link" href="lunch.php">Lunch</a>
+        </li>
 
-             <li class="nav-item">
-               <a class="nav-link" href="snack-pm.php">SnackPM</a>
-             </li>
+        <li class="nav-item">
+            <a class="nav-link" href="snack-pm.php">SnackPM</a>
+        </li>
 
-             <li class="nav-item">
-               <a class="nav-link" href="dinner.php">Dinner</a>
-             </li>
+        <li class="nav-item">
+            <a class="nav-link" href="dinner.php">Dinner</a>
+        </li>
 
-             <li class="nav-item">
-               <a class="nav-link" href="tot-day.php">Tot KCal Day</a>
-             </li>
+        <li class="nav-item">
+            <a class="nav-link" href="tot-day.php">Tot KCal Day</a>
+        </li>
 
-             <li class="nav-item">
-               <a class="nav-link" href="backup.php">Backup</a>
-             </li>
+        <li class="nav-item">
+            <a class="nav-link" href="backup.php">Backup</a>
+        </li>
 
-           </ul>
-         </nav>
+    </ul>
+</nav>
 
 
 
@@ -81,97 +81,103 @@ se si , cancella il record e poi esegue la lista alimenti -->
 
 
 <!-- TITOLO PAGINA -->
-      <div>
-          <h2 class="text-center tit p-2">FOOD LIST</h2>
-          <p class="text-center">Enter a new food item. Keep your list updated.</br>
-          <b>Hint:</b> This food list will be your reference for your daily meals.</p>
-          <hr>
-          <p><b>* Required Fields.</b></p>
-      </div>
+<div>
+    <h2 class="text-center tit p-2">FOOD LIST</h2>
+    <p class="text-center">Enter a new food item. Keep your list updated.</br>
+        <b>Hint:</b> This food list will be your reference for your daily meals.
+    </p>
+    <hr>
+    <p><b>* Required Fields.</b></p>
+</div>
 
 
 <!-- FORM INPUT RECORD ALIMENTI -->
 
 <div class="container text-center">
 
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
-  <div class="row justify-content-center">
+        <div class="row justify-content-center">
 
-                <!-- COLONNA -->
-                <div class="col-sm-6">
-                  <div class="form-group">
+            <!-- COLONNA -->
+            <div class="col-sm-6">
+                <div class="form-group">
                     <label for="gruppo">* FOOD GROUP</label>
-                    <input value="<?php echo($_GET['gruppo']);?>" type="text" name="gruppo" class="form-control">
-                  </div>
+                    <input value="<?php echo($_GET['gruppo'] ?? '');?>" type="text" name="gruppo" class="form-control">
                 </div>
+            </div>
 
 
-                <!-- COLONNA -->
-                <div class="col-sm-6">
-                  <div class="form-group">
+            <!-- COLONNA -->
+            <div class="col-sm-6">
+                <div class="form-group">
                     <label for="alimento">* FOOD ITEM</label>
-                    <input value="<?php echo($_GET['alimento']);?>" type="text" name="alimento" class="form-control">
-                  </div>
+                    <input value="<?php echo($_GET['alimento'] ?? '');?>" type="text" name="alimento"
+                        class="form-control">
                 </div>
+            </div>
 
-                <!-- COLONNA -->
-                <div class="col-sm-4">
-                  <div class="form-group">
+            <!-- COLONNA -->
+            <div class="col-sm-4">
+                <div class="form-group">
                     <label for="calorie">* KCALs (100 gr)</label>
-                    <input  value="<?php echo($_GET['calorie']);?>" type="text" name="calorie" class="form-control">
-                  </div>
+                    <input value="<?php echo($_GET['calorie']  ?? 0);?>" type="text" name="calorie"
+                        class="form-control">
                 </div>
+            </div>
 
 
 
-                <!-- COLONNA -->
-                <div class="col-sm-4">
-                  <div class="form-group">
+            <!-- COLONNA -->
+            <div class="col-sm-4">
+                <div class="form-group">
                     <label for="dose_porzione_gr">* PORTION (gr)</label>
-                    <input  value="<?php echo($_GET['dose_porzione_gr']);?>" type="text" name="dose_porzione_gr" class="form-control">
-                  </div>
+                    <input value="<?php echo($_GET['dose_porzione_gr']  ?? 0);?>" type="text" name="dose_porzione_gr"
+                        class="form-control">
                 </div>
+            </div>
 
 
-                <!-- COLONNA -->
-                <div class="col-sm-4">
-                  <div class="form-group">
+            <!-- COLONNA -->
+            <div class="col-sm-4">
+                <div class="form-group">
                     <label for="kcal_dose_porzione">KCALs x PORTION</label>
-                    <input READONLY value="<?php echo($_GET['kcal_dose_porzione']);?>" type="text" name="kcal_dose_porzione" class="bg-secondary text-light form-control">
-                  </div>
+                    <input READONLY value="<?php echo($_GET['kcal_dose_porzione']  ?? 0);?>" type="text"
+                        name="kcal_dose_porzione" class="bg-secondary text-light form-control">
                 </div>
+            </div>
 
 
-                <!-- COLONNA -->
-                <div class="col-sm-12">
-                  <div class="form-group">
+            <!-- COLONNA -->
+            <div class="col-sm-12">
+                <div class="form-group">
                     <label for="note">NOTE</label>
-                    <input value="<?php echo($_GET['note']);?>" type="text" name="note" class="form-control">
-                  </div>
+                    <input value="<?php echo($_GET['note']  ?? '');?>" type="text" name="note" class="form-control">
                 </div>
+            </div>
 
-                <!-- COLONNA NASCOSTA ID_REC-->
-                <div class="col-sm-1">
-                  <div class="form-group">
+            <!-- COLONNA NASCOSTA ID_REC-->
+            <div class="col-sm-1">
+                <div class="form-group">
                     <label for="id_rec"></label>
-                    <input HIDDEN READONLY value="<?php echo($_GET['modifica_id']);?>" type="text" name="id_rec" class="form-control">
-                  </div>
+                    <input HIDDEN READONLY value="<?php echo($_GET['modifica_id']  ?? '');?>" type="text" name="id_rec"
+                        class="form-control">
                 </div>
+            </div>
 
-    </div>
+        </div>
 
-    <div class="row justify-content-center">
+        <div class="row justify-content-center">
 
-      <div class="form-group text-center">
-      <!-- INSERT / UPDATE // DEFAULT LIST // DELETE LIST BUTTONS -->
-        <input type="submit" name="aggiungi" value="Insert / Update" class="btn btn-success btn-lg">
-        <input type="submit" name="default" value="Default List" class="btn btn-primary btn-lg">
-        <input type="submit" name="delete" value="Delete List" class="btn btn-danger btn-lg">
+            <div class="form-group text-center">
+                <!-- INSERT / UPDATE // DEFAULT LIST // DELETE LIST BUTTONS -->
+                <input type="submit" name="aggiungi" value="Insert / Update" class="btn btn-success btn-lg">
+                <input type="submit" name="default" value="Default List" class="btn btn-primary btn-lg">
+                <input type="submit" name="delete" value="Delete List" class="btn btn-danger btn-lg">
 
-      </div>
+            </div>
 
-</form>
+    </form>
 
 </div>
 
@@ -188,7 +194,7 @@ se si , cancella il record e poi esegue la lista alimenti -->
 
 
 
-          <!-- LISTA ALIMENTI + BOTTONE CANCELLA SU OGNI RECORD , FORM INTERCETTA SE PREMUTO BTN CANCELLA
+<!-- LISTA ALIMENTI + BOTTONE CANCELLA SU OGNI RECORD , FORM INTERCETTA SE PREMUTO BTN CANCELLA
         nella action la variabile $SERVER ricarica la stessa pagina food.php
 
         Se CANCELLA non e' stato premuto esegue lista_alimenti()
@@ -197,22 +203,23 @@ se si , cancella il record e poi esegue la lista alimenti -->
 
           <form action="food.php" method="get" >        -->
 
-          <form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" >
+<form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
 
-          <div class="table-responsive-sm">
+    <div class="table-responsive-sm">
 
-<!-- call alla fx che esegue la SELECT su DB fornendo dati + bottone CANCELLA-->
-            <?php lista_alimenti('ALI', 'food.php');?> <!-- LIS = lista -->
+        <!-- call alla fx che esegue la SELECT su DB fornendo dati + bottone CANCELLA-->
+        <?php lista_alimenti('ALI', 'food.php');?>
+        <!-- LIS = lista -->
 
 
-            <div class="text-center bg-white text-dark">
-              Date : <?php echo date('d-n-Y'); ?> | <?php echo "Listed Items : " . $row_count; ?>
-            </div>
+        <div class="text-center bg-white text-dark">
+            Date : <?php echo date('d-n-Y'); ?> | <?php echo "Listed Items : " . $row_count; ?>
+        </div>
 
-          </div>
+    </div>
 
-        </form>
+</form>
 
 
 

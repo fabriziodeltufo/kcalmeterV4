@@ -219,7 +219,7 @@ se si , cancella il record  -->
 
                   <!-- FUNZIONE lista_ali_pasti() -->
 
-                    <?php lista_ali_pasti(SNA); ?>
+                    <?php lista_ali_pasti("SNA"); ?>
 
 
                   <!-- TOTALE CALORIE PASTO  -->

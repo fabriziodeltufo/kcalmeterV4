@@ -32,7 +32,7 @@ Last Upd : 30 Nov 2020
         <div id="footer-text">
 
             <p>
-                <b>KCalMeter V4.2 Space Edition.</b><br>
+                <b>KCalMeter V5 Space Edition.</b><br>
                 Controlla le tue calorie. Controlla il peso.<br>
             </p>
 
@@ -41,7 +41,7 @@ Last Upd : 30 Nov 2020
                 Versione Bootstrap : 4.3.1<br>
                 Versione Schermo : Desktop<br>
                 Autore : Fabrizio Del Tufo<br>
-                Ultimo Aggiornamento : 8 Nov. 2023<br>
+                Ultimo Aggiornamento : 27 Feb, 2025<br>
             </p>
 
 
@@ -135,7 +135,6 @@ Last Upd : 30 Nov 2020
                             <b>Stephan Van Den Wyngaert : </b>UI/UX Beta Tester.<br>
                             <b>Lorenza Monselice : </b>UI/UX Beta Tester.<br>
                             <b>Catalin Tismanaru : </b>Network Engineer.<br>
-                            <b>Alessandro Urso : </b>IBM Tech. Hw Server Specialist.<br>
                             <b>Fabio Lue' : </b>IBM Product Engineer.<br>
                             <b>Ferdi Torggler : </b>React Developer.
                         </div>

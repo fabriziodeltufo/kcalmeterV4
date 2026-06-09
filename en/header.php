@@ -43,7 +43,7 @@ Last Upd : 18 Nov 2020
 <body>
   <!-- <?php $path_session = getcwd(); ?> -->
   <!-- <?php var_dump($path_session); ?> -->
-  <?php session_start(); ?>
+  <!--<?php session_start(); ?>-->
 
 <!-- ==========================================  H1 HIDDEN x SEO  ================================================ -->
 <h1 class="d-none">KcalMeter - Calories Meter.</h1>

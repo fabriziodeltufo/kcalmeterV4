@@ -846,34 +846,27 @@ FUNCTION aggiornaTotali($TP){
 
 // controlla se non c'e il record per il tipo_pasto ///
 
-$sql = " SELECT * FROM totali WHERE id_user = '$id_user' AND data = '$data' AND tp = '$TP' " ;
+$sql = " SELECT id_rec FROM totali WHERE id_user = '$id_user' AND data = '$data' AND tp = '$TP' " ;
 
 $risultato = mysqli_query ($connessioneDB, $sql ) ;
 $row = mysqli_fetch_array($risultato);
 
-$id_rec = $row['id_rec'];
-$data = $row['data'];
-// var_dump($id);
-// var_dump($data);
-
-if (isset($id_rec)) {
+$id_rec = $row['id_rec'] ?? 0;
 
 
+if ($id_rec > 0) {
+
+  $data = $row['data'] ?? $data;
+
+  
     // aggiorna totale calorie x pasto ///
     $sql = " UPDATE totali SET cal = '$sum_calorie' WHERE id_user = '$id_user' AND id_rec = '$id_rec' AND data = '$data' AND tp = '$TP' ";
     $risultato = mysqli_query($connessioneDB, $sql);
     // conferma($risultato);
 
-
-
   } else {
 
-
-    $id_rec = 0;
-    $data = date('Y-n-d');
-
-
-        // inserisci totale calorie x pasto  ////
+          // inserisci totale calorie x pasto  ////
         $sql = " INSERT INTO totali (id_user ,id_rec, data, tp, cal) VALUES ('{$id_user}' , '{$id_rec}' , '{$data}',  '{$TP}' , '{$sum_calorie}' ) ";
         $risultato = mysqli_query($connessioneDB, $sql);
         // conferma($risultato);
@@ -1175,4 +1168,5 @@ GLOBAL $connessioneDB;
 
 
 
-?>  <!-- END TAG PHP
+?>
+<!-- END TAG PHP

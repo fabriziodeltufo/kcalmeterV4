@@ -225,7 +225,7 @@ se si , cancella il record  -->
 
             <!-- FUNZIONE lista_ali_pasti() -->
 
-              <?php lista_ali_pasti(COL); ?>
+              <?php lista_ali_pasti("COL"); ?>
 
 
             <!-- TOTALE CALORIE PASTO  -->

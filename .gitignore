@@ -11,9 +11,13 @@ config/*
 dump/*
 en/config-backup/*
 en/config.php
+en/config.phpLOCAL
+en/config.phpSERVER
 en/google12475d20f2373359.html
 it/config-backup/*
 it/config.php
+it/config.phpLOCAL
+it/config.phpSERVER
 it/google12475d20f2373359.html
 
 # User-specific files

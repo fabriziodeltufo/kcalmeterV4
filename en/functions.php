@@ -317,19 +317,23 @@ FUNCTION aggiungiAlimento(){
 //  ++++++++++++++++++++  BTN INSERT / UPDATE  +++++++++++++++++++++++++++++++++++++ //
 
 // INSERIMENTO MANUALE + CONTROLLO CAMPI VOID   //
-
-if ( isset($_POST['aggiungi']) ){
+if ( isset($_POST['aggiungi']) ? $_POST['aggiungi'] : '' ){
 
 // FIELDS WITH VALUE //
-$id_user = $_SESSION['iduser'];
-$id_rec = $_POST['id_rec'];
-$gruppo = $_POST['gruppo'];
-$alimento = $_POST['alimento'];
-$categoria = $_POST['categoria'];
-$calorie = $_POST['calorie'];
-$dose_porzione_gr = $_POST['dose_porzione_gr'];
-$kcal_dose_porzione = (($calorie/100) * $dose_porzione_gr) ;
-$note = $_POST['note'];
+$id_user = $_SESSION['iduser'] ?? 0;
+$id_rec = $_POST['id_rec'] ?? 0;
+$gruppo = $_POST['gruppo'] ?? '';
+$alimento = $_POST['alimento'] ?? '';
+$categoria = $_POST['categoria'] ?? '';
+
+$calorie = $_POST['calorie'] ?? 0;
+$calorie = is_numeric($calorie) ? (float)$calorie : 0;
+
+$dose_porzione_gr = $_POST['dose_porzione_gr'] ?? 0;
+$dose_porzione_gr = is_numeric($dose_porzione_gr) ? (float)$dose_porzione_gr : 0;
+
+$kcal_dose_porzione = ( ($calorie/100) * $dose_porzione_gr) ;
+$note = $_POST['note'] ?? '';
 
 // CHECK FIELDS - NO NULL/VOID //
 
@@ -397,7 +401,8 @@ FUNCTION lista_alimenti($TipoLista, $TP){
 
   // estrae da ARRAY una riga alla volta
   $row_count = 0;
-  $_testata = 0;
+  $testata = 0;
+  $link_php = '';
 
   while ($row = mysqli_fetch_array($mostra_alimenti)) {
 
@@ -524,13 +529,18 @@ FUNCTION aggiungiAlimentoPasto($TP){
 
 if(isset($_POST['aggiungi'])){
 
-  $id_user = $_SESSION['iduser'];
-  $id_rec = $_POST['id_rec'];
-  $gruppo = $_POST['gruppo'];
-  $alimento = $_POST['alimento'];
-  $categoria = $_POST['categoria'];//
-  $calorie = $_POST['calorie'];
-  $dose_porzione_gr = $_POST['dose_porzione_gr'];
+  $id_user = $_SESSION['iduser'] ?? 0;
+  $id_rec = $_POST['id_rec'] ?? 0;
+  $gruppo = $_POST['gruppo'] ?? '';
+  $alimento = $_POST['alimento'] ?? '';
+  $categoria = $_POST['categoria']  ?? '';
+
+  $calorie = $_POST['calorie'] ?? 0;
+  $calorie = is_numeric($calorie) ? (float)$calorie : 0;
+
+  $dose_porzione_gr = $_POST['dose_porzione_gr'] ?? 0;
+  $dose_porzione_gr = is_numeric($dose_porzione_gr) ? (float)$dose_porzione_gr : 0;
+
   $kcal_dose_porzione = ($calorie/100) * $dose_porzione_gr;
   $note = $_POST['note'];
   $data = date('Y-n-d');
@@ -825,8 +835,8 @@ FUNCTION listaTotDay() {
 
       // PRINT suggerimento  //
       echo "<br>";
-      echo "<p><i style='color:white;''><b>Suggerimento :</b> Se superi il LIMITE, riduci le dosi, NON gli alimenti.<br>";
-      echo "<b>Mantieni la tua dieta varia ed equilibrata.</b></i></p>";
+      echo "<p><i style='color:white;''><b>Tip :</b> If you exceed the LIMIT, reduce the doses, NOT the foods.<br>";
+      echo "<b>Keep your diet varied and balanced.</b></i></p>";
       echo "<br>";
     }
     else {
@@ -842,6 +852,7 @@ FUNCTION listaTotDay() {
 
 FUNCTION aggiornaTotali($TP){
 
+
   GLOBAL $connessioneDB;
   GLOBAL $sum_calorie;
 
@@ -849,19 +860,24 @@ FUNCTION aggiornaTotali($TP){
   $id_rec = 0;
   $data = date('Y-n-d');
 
+
+  // var_dump("USER: " . $id_user);
+  // var_dump("DATA: " . $data);
+  // var_dump("PASTO: " . $TP);
+
+
 // controlla se non c'e il record per il tipo_pasto ///
 
-$sql = " SELECT * FROM totali WHERE id_user = '$id_user' AND data = '$data' AND tp = '$TP' " ;
+$sql = " SELECT id_rec FROM totali WHERE id_user = '$id_user' AND data = '$data' AND tp = '$TP' " ;
 
 $risultato = mysqli_query ($connessioneDB, $sql ) ;
 $row = mysqli_fetch_array($risultato);
 
-$id_rec = $row['id_rec'];
-$data = $row['data'];
-// var_dump($id);
-// var_dump($data);
+$id_rec = $row['id_rec'] ?? 0;
 
-if (isset($id_rec)) {
+if ($id_rec > 0) {
+
+  $data = $row['data'] ?? $data;
 
 
     // aggiorna totale calorie x pasto ///
@@ -869,17 +885,10 @@ if (isset($id_rec)) {
     $risultato = mysqli_query($connessioneDB, $sql);
     // conferma($risultato);
 
-
-
   } else {
 
-
-    $id_rec = 0;
-    $data = date('Y-n-d');
-
-
         // inserisci totale calorie x pasto  ////
-        $sql = " INSERT INTO totali (id_user ,id_rec, data, tp, cal) VALUES ('{$id_user}' , '{$id_rec}' , '{$data}',  '{$TP}' , '{$sum_calorie}' ) ";
+        $sql = "INSERT INTO totali (id_user ,id_rec, data, tp, cal) VALUES ('{$id_user}' , '{$id_rec}' , '{$data}', '{$TP}', '{$sum_calorie}' ) ";
         $risultato = mysqli_query($connessioneDB, $sql);
         // conferma($risultato);
 

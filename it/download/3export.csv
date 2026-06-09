@@ -1,0 +1,94 @@
+3,18003,BIBITE,caffe,bevande,2,400,8,"tazza caffe americano"
+3,18095,BIBITE,"latte di soya",,42,100,42,"1 tazza"
+3,18004,BIBITE,"lattina coca cola",bibita,0,330,0,"calorie zero"
+3,18005,BIBITE,limonata,bevande,1,2000,20,
+3,18092,BIBITE,"monster energy verde",,47,500,235,"una lattina da 500ml"
+3,18006,BIBITE,"te verde",bevande,2,0,0,
+3,18007,CARNE,insaccato,"proteine animali",144,0,0,salumi
+3,18008,CARNE,"prosciutto cotto","proteine animali",132,0,0,
+3,18009,CARNE,salame,"proteine animali",144,0,0,
+3,18010,CARNE,"uovo sodo","proteine animali",80,48,39,"1 uovo"
+3,18011,"CARNE BIANCA","petti di pollo","proteine animali",110,250,275,"1 petto pollo"
+3,18012,"CARNE PESCE","pate salmone","proteine animali",190,100,190,barattolino
+3,18013,"CARNE PESCE","pesce merluzzo","proteine animali",127,0,300,"2 porzioni merluzzo"
+3,18014,"CARNE PESCE",sardine,"proteine animali",167,0,200,
+3,18015,"CARNE PESCE","tonno in pezzi","proteine animali",109,0,110,
+3,18016,"CARNE ROSSA","braciole maiale","proteine animali",110,100,110,"1 braciola"
+3,18017,CEREALI,baguette,cereali,281,0,0,
+3,18018,CEREALI,"fiocchi avena",fibre,367,12,44,"1 cucchiaio, +HDL, -LDL, -grassi nel sangue"
+3,18019,CEREALI,mais,cereali,88,118,103,
+3,18020,CEREALI,noudle,carboidrati,150,50,75,"to check"
+3,18021,CEREALI,orzo,cereali,0,0,0,
+3,18022,CEREALI,"pane integrale",cereali,230,38,87,"1 fetta"
+3,18023,CEREALI,"pasta integrale cotta",cereali,143,50,72,
+3,18024,CEREALI,"pizza margherita",cereali,271,0,0,
+3,18025,CEREALI,"riso bianco cotto",cereali,100,50,50,
+3,18026,CEREALI,"riso integrale",cereali,119,50,60,"mezza tazza"
+3,18027,CEREALI,"riso integrale cotto",cereali,119,60,74,
+3,18028,FRUTTA,albicocche,vitamine,50,72,36,"1 albicocca"
+3,18029,FRUTTA,amarene,vitamine,30,0,0,
+3,18030,FRUTTA,ananas,vitamine,55,0,0,
+3,18031,FRUTTA,anguria,vitamine,30,0,0,
+3,18032,FRUTTA,arancia,vitamine,45,0,0,
+3,18033,FRUTTA,banane,vitamine,90,100,90,"frutta due volte al giorno"
+3,18034,FRUTTA,cachi,vitamine,65,0,0,
+3,18035,FRUTTA,ciliege,vitamine,70,0,0,
+3,18036,FRUTTA,fragole,vitamine,35,0,0,
+3,18037,FRUTTA,lamponi,vitamine,40,0,0,antiossidanti
+3,18038,FRUTTA,limone,vitamine,30,0,0,"accellera metabolismo"
+3,18039,FRUTTA,mandarini,vitamine,45,0,0,
+3,18040,FRUTTA,"marmellata fragole",vitamine,247,33,81,"1 cucchiaio"
+3,18041,FRUTTA,mela,vitamine,0,0,0,
+3,18042,FRUTTA,melone,vitamine,50,0,0,
+3,18043,FRUTTA,mirtilli,vitamine,0,0,0,"antiossidanti, circolazione sanguigna migliore"
+3,18044,FRUTTA,more,vitamine,55,0,0,
+3,18045,FRUTTA,pere,vitamine,50,0,0,
+3,18046,FRUTTA,pesca,vitamine,40,106,42,"1 pesca, ricca di fibre, antiossidanti, vitamine"
+3,18047,FRUTTA,prugne,vitamine,50,0,0,
+3,18048,FRUTTA,"uva passa",vitamine,300,15,45,"1 cucchiaio, previene cancro e carie, contiene catechina e polifenoli"
+3,18093,FRUTTA,"uva rossa",,61,250,153,"scatola lidl"
+3,18049,"FRUTTA SECCA",arachidi,"frutta secca",610,250,1525,"1 sacchetto 250gr"
+3,18050,"FRUTTA SECCA",mandorle,"frutta secca",613,5,30,"6 mandorle"
+3,18051,"FRUTTA SECCA",noci,"frutta secca",690,10,69,"5 noci, molto calorica ma contiene omega3, acidi grassi insaturi, vitamina E, ferro , magnesio"
+3,18052,GRASSI,aceto,condimenti,104,15,16,"1 cucchiaio"
+3,18053,GRASSI,"olio di girasole",condimenti,829,15,124,"1 cucchiaio"
+3,18054,GRASSI,"olio di mais",condimenti,899,15,134,"1 cucchiaio"
+3,18055,GRASSI,"olio extravergine oliva",condimenti,826,15,123,"1 cucchiaio"
+3,18056,LATTICINI,formaggio,proteine,271,0,0,
+3,18057,LATTICINI,"formaggio uk",formaggi,302,160,483,
+3,18058,LATTICINI,"grana padano",proteine,384,0,0,
+3,18059,LATTICINI,"latte scremato",proteine,35,247,86,"tazza latte"
+3,18060,LATTICINI,mozzarella,proteine,222,125,277,"1 mozzarella"
+3,18061,LATTICINI,"yogurt bianco bottiglietta",proteine,64,125,80,"diminuisce acidita intestinale/corpo,  flora batterica,  calcio (x ossa/denti),  sistema immunitario"
+3,18062,LATTICINI,"yogurt bianco magro",proteine,36,125,45,"diminuisce acidita intestinale/corpo, +flora batterica, +calcio (x ossa/denti), +sistema immunitario"
+3,18063,LEGUMI,ceci,"proteine vegetali",128,240,308,"1 barattolo"
+3,18064,LEGUMI,fagioli,"proteine vegetali",83,410,340,"1 barattolo"
+3,18065,LEGUMI,"legumi secchi","proteine vegetali",296,0,0,
+3,18066,LEGUMI,lenticchie,,90,70,63,"4 cucchiai"
+3,18067,LEGUMI,"piselli verdi surgelati","proteine vegetali",48,0,0,
+3,18068,PROTEINE,uova,"proteine animali",80,100,80,"3 volte a settimana , LU, ME, VE"
+3,18069,VERDURA,aglio,vegetali,90,0,0,
+3,18070,VERDURA,broccoli,vegetali,27,207,56,"1 porzione"
+3,18071,VERDURA,carote,vegetali,35,0,0,
+3,18072,VERDURA,cavolfiore,vegetali,25,0,0,
+3,18073,VERDURA,cipolla,vegetali,25,0,0,
+3,18074,VERDURA,finocchi,vegetali,15,0,0,
+3,18075,VERDURA,funghi,vegetali,25,100,25,
+3,18096,VERDURA,"insalata iceberg",vegetali,1,1,0,"mezza insalata"
+3,18076,VERDURA,"minestra verdure",vegetali,30,200,60,
+3,18077,VERDURA,olive,vegetali,144,95,137,"½ barattolo"
+3,18078,VERDURA,patate,vegetali,85,0,0,
+3,18079,VERDURA,"pomodoro insalataro",vegetali,19,281,54,"400gr tra verdura / frutta dose consigliata - verdura due volte al giorno"
+3,18080,VERDURA,"pomodoro piccolo",vegetali,19,50,10,"400gr tra verdura / frutta dose consigliata - verdura due volte al giorno"
+3,18094,VERDURA,"pure di patate",,106,200,212,"1 confezione"
+3,18081,VERDURA,sedano,vegetali,15,0,15,
+3,18082,VERDURA,spinaci,vegetali,24,0,0,
+3,18083,ZUCCHERI,"brioches double crème",dolci,452,110,497,
+3,18091,ZUCCHERI,"cioccolato fondente",,584,22,128,"2 cubetti - 85% cacao fondente (lindt excellence) dark chocolate"
+3,18084,ZUCCHERI,"gelato artigianale frutta",dolci,130,2000,2600,"vaschetta 2Litri"
+3,18085,ZUCCHERI,"gelato confezionato frutta",dolci,160,2000,3200,"vaschetta 2Litri"
+3,18086,ZUCCHERI,"mars cioccolato",dolci,448,39,177,"barretta mars"
+3,18087,ZUCCHERI,miele,dolci,307,12,36,"1 cucchiaio piccolo"
+3,18088,ZUCCHERI,"pack popcorn",cereali,461,100,461,popcorn
+3,18089,ZUCCHERI,"salame al cioccolato",dolci,181,181,181,"1 fetta"
+3,18090,ZUCCHERI,zucchero,dolci,400,5,20,"1 cucchiaio piccolo"

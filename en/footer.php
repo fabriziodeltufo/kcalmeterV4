@@ -24,7 +24,7 @@ Last Upd : 30 Nov 2020
             <!-- LANGUAGES SELECTION -->
             <div id="footer-lan">
                 <b>
-                    <p><a href="../en/">English</a> | <a href="../it/">Italiano</a></p>
+                    <!-- <p><a href="../en/">English</a> | <a href="../it/">Italiano</a></p> -->
                 </b>
             </div>
         </div>
@@ -38,7 +38,7 @@ Last Upd : 30 Nov 2020
         <div id="footer-text">
 
             <p>
-                <b>KCalMeter V4.2 Space Edition.</b><br>
+                <b>KCalMeter V5 Space Edition.</b><br>
                 Check the calories. Control your weight.<br>
             </p>
 
@@ -47,7 +47,7 @@ Last Upd : 30 Nov 2020
                 Bootstrap version : 4.3.1<br>
                 Screen Version : Desktop<br>
                 Author : Fabrizio Del Tufo<br>
-                Last Update : 2023, Nov. 8<br>
+                Last Update : 2025, Feb. 27<br>
             </p>
 
             <div id="box-creditsBtn">
@@ -136,7 +136,6 @@ Last Upd : 30 Nov 2020
                             <b>Stephan Van Den Wyngaert : </b>UI/UX Beta Tester.<br>
                             <b>Lorenza Monselice : </b>UI/UX Beta Tester.<br>
                             <b>Catalin Tismanaru : </b>Network Engineer.<br>
-                            <b>Alessandro Urso : </b>IBM Tech. Hw Server Specialist.<br>
                             <b>Fabio Lue' : </b>IBM Product Engineer.<br>
                             <b>Ferdi Torggler : </b>React Developer.
                         </div>
