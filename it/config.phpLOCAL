@@ -1,0 +1,29 @@
+<!--
+WebApp Code Name : kcalmeter
+Date: 14-11-2019
+Author : Fabrizio Del Tufo
+Module : config.php
+Last Upd : 10 June 2020
+-->
+
+<?php
+// definizione path files sito
+defined ('DS') ? null : define ('DS', DIRECTORY_SEPARATOR );
+defined ('FRONT_END') ? null : define ('FRONT_END', __DIR__ );
+// echo "FRONT_END : " . FRONT_END . "<br>";
+
+
+// definizione connessione DB
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PWD', 'root');
+define('DB_NAME', 'db-kcalmeterIT');
+
+$connessioneDB = mysqli_connect(DB_HOST, DB_USER, DB_PWD, DB_NAME);
+
+if (!$connessioneDB) {
+  echo "ERROR : DB Connection : " . mysqli_error($connessioneDB);
+  // var_dump($connessioneDB);
+}
+
+?>
